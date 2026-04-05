@@ -139,6 +139,9 @@ Thumbs.db
 *.ckpt
 *.pkl
 *.pickle
+*jpg
+*png
+*csv
 
 # Results and outputs
 results/
@@ -151,3 +154,6 @@ sample_data/
 *.zip
 *.tar.gz
 *.tar.bz2
+
+# Project folders to exclude
+../final-project/
