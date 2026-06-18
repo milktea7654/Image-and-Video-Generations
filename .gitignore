@@ -40,20 +40,12 @@ sample/
 samples/
 
 # Lab-specific generated folders
-Lab1-DDPM/image_diffusion_todo/data/
-Lab1-DDPM/image_diffusion_todo/results/
-Lab1-DDPM/image_diffusion_todo/output/
-Lab2-DDIM/task1/image_diffusion_todo/data/
-Lab2-DDIM/task1/image_diffusion_todo/results/
-Lab2-DDIM/task1/image_diffusion_todo/sample/
-Lab2-DDIM/task2/outputs/
-Lab2-DDIM/task2/runs/
-Lab3-Distillation/outputs/
-Lab3-Distillation/output/
-Lab4-FlowMatching/data/
-Lab4-FlowMatching/results/
-final-project/dataset/
-final-project/output/
+**data/
+**output/
+**results/
+**runs/
+**sample/
+**samples/
 
 # Large model/checkpoint/archive artifacts
 *.ckpt
