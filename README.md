@@ -15,9 +15,9 @@ NYCU Image and Video Generation coursework repository.
 └── .gitmodules
 ```
 
-## Submodules
+## Repository Layout
 
-Each lab and the final project is managed as an independent git repository and linked here as a submodule.
+Labs are kept as normal folders in this repository. The final project uses external model repositories under `final-project/models/` as submodules.
 
 ```bash
 git submodule update --init --recursive

@@ -19,6 +19,7 @@ Thumbs.db
 *.swp
 *.swo
 *~
+.submodule-git-backups/
 
 # Build/test artifacts
 build/
@@ -40,12 +41,19 @@ sample/
 samples/
 
 # Lab-specific generated folders
-**data/
-**output/
-**results/
-**runs/
-**sample/
-**samples/
+Lab1-DDPM/image_diffusion_todo/data/
+Lab1-DDPM/image_diffusion_todo/results/
+Lab2-DDIM/task1/image_diffusion_todo/data/
+Lab2-DDIM/task1/image_diffusion_todo/results/
+Lab2-DDIM/task1/image_diffusion_todo/sample/
+Lab2-DDIM/task2/runs/
+Lab3-Distillation/output/
+Lab3-Distillation/outputs/
+Lab4-FlowMatching/data/
+Lab4-FlowMatching/results/
+final-project/dataset/
+final-project/output/
+final-project/models/DiffMatch/model_best_dped.pt
 
 # Large model/checkpoint/archive artifacts
 *.ckpt

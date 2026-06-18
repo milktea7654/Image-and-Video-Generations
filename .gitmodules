@@ -1,15 +1,15 @@
-[submodule "Lab1-DDPM"]
-	path = Lab1-DDPM
-	url = https://github.com/milktea7654/Lab1-DDPM.git
-[submodule "Lab2-DDIM"]
-	path = Lab2-DDIM
-	url = https://github.com/milktea7654/Lab2-DDIM.git
-[submodule "Lab3-Distillation"]
-	path = Lab3-Distillation
-	url = https://github.com/milktea7654/Lab3-Distillation.git
-[submodule "Lab4-FlowMatching"]
-	path = Lab4-FlowMatching
-	url = https://github.com/milktea7654/Lab4-FlowMatching.git
-[submodule "final-project"]
-	path = final-project
-	url = https://github.com/milktea7654/IVG-final-project.git
+[submodule "final-project/models/ControlNet"]
+	path = final-project/models/ControlNet
+	url = https://github.com/lllyasviel/ControlNet.git
+[submodule "final-project/models/DiffMatch"]
+	path = final-project/models/DiffMatch
+	url = https://github.com/cvlab-kaist/DiffMatch.git
+[submodule "final-project/models/LightGlue"]
+	path = final-project/models/LightGlue
+	url = https://github.com/cvg/LightGlue.git
+[submodule "final-project/models/nerfstudio"]
+	path = final-project/models/nerfstudio
+	url = https://github.com/nerfstudio-project/nerfstudio.git
+[submodule "final-project/models/vggt"]
+	path = final-project/models/vggt
+	url = https://github.com/facebookresearch/vggt.git
