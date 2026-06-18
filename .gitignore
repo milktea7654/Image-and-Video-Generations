@@ -1,13 +1,37 @@
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 .ipynb_checkpoints/
 
+# Local environments
 .env
 .venv/
 venv/
+env/
+ENV/
 
-# Local datasets and generated outputs inside submodules
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build/test artifacts
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage*
+htmlcov/
+
+# Datasets and generated outputs
 data/
+dataset/
 output/
 outputs/
 results/
@@ -15,17 +39,35 @@ runs/
 sample/
 samples/
 
-# Large model and archive artifacts
+# Lab-specific generated folders
+Lab1-DDPM/image_diffusion_todo/data/
+Lab1-DDPM/image_diffusion_todo/results/
+Lab1-DDPM/image_diffusion_todo/output/
+Lab2-DDIM/task1/image_diffusion_todo/data/
+Lab2-DDIM/task1/image_diffusion_todo/results/
+Lab2-DDIM/task1/image_diffusion_todo/sample/
+Lab2-DDIM/task2/outputs/
+Lab2-DDIM/task2/runs/
+Lab3-Distillation/outputs/
+Lab3-Distillation/output/
+Lab4-FlowMatching/data/
+Lab4-FlowMatching/results/
+final-project/dataset/
+final-project/output/
+
+# Large model/checkpoint/archive artifacts
 *.ckpt
 *.pt
 *.pth
+*.pkl
+*.pickle
+*.npy
+*.npz
 *.log
 *.zip
 *.tar.gz
 *.tar.bz2
 
-# OS/editor files
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
+# Generated media
+*.mp4
+*.ply
