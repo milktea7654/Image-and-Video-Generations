@@ -1,0 +1,31 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+.env
+.venv/
+venv/
+
+# Local datasets and generated outputs inside submodules
+data/
+output/
+outputs/
+results/
+runs/
+sample/
+samples/
+
+# Large model and archive artifacts
+*.ckpt
+*.pt
+*.pth
+*.log
+*.zip
+*.tar.gz
+*.tar.bz2
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

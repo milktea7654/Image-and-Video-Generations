@@ -1,0 +1,15 @@
+[submodule "Lab1-DDPM"]
+	path = Lab1-DDPM
+	url = https://github.com/milktea7654/Lab1-DDPM.git
+[submodule "Lab2-DDIM"]
+	path = Lab2-DDIM
+	url = https://github.com/milktea7654/Lab2-DDIM.git
+[submodule "Lab3-Distillation"]
+	path = Lab3-Distillation
+	url = https://github.com/milktea7654/Lab3-Distillation.git
+[submodule "Lab4-FlowMatching"]
+	path = Lab4-FlowMatching
+	url = https://github.com/milktea7654/Lab4-FlowMatching.git
+[submodule "final-project"]
+	path = final-project
+	url = https://github.com/milktea7654/IVG-final-project.git
