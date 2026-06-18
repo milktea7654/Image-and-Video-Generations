@@ -15,16 +15,3 @@ NYCU Image and Video Generation coursework repository.
 | Lab 3 | Score Distillation Sampling |
 | Lab 4 | Flow Matching |
 
-## Repository Structure
-
-```text
-.
-├── Lab1-DDPM/
-├── Lab2-DDIM/
-├── Lab3-Distillation/
-├── Lab4-FlowMatching/
-├── final-project/
-├── .gitignore
-└── .gitmodules
-```
-
