@@ -63,7 +63,8 @@ NOTE: Please make sure you start training early — Task 2 requires 6+ hours per
         ├── measure_fid.py
 │       └── afhq_inception.ckpt
 ├── assets/                       # README images and visual results
-└── docs/                         # assignment PDF and reference notes
+└── docs/                         # assignment PDF, report, and task notes
+    └── task1_report              # Task 1 result summary and figures
 
 ```
 ---

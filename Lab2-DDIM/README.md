@@ -75,7 +75,8 @@ pip install -r requirements.txt
     ├── train_lora.py                 # Training code for LoRA
     └── utils.py
 ├── assets/                       # README images and visual results
-└── docs/                         # assignment PDFs and reference notes
+└── docs/                         # assignment PDFs, report, and result notes
+    └── fid_results               # Task 1 FID summaries and logs
 ```
 ---
 <h2><b>📝 Task 1 – DDIM</b></h2>
