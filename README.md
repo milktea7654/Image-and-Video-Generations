@@ -4,7 +4,7 @@ NYCU Image and Video Generation coursework repository.
 
 **Note**
 - **Instructor**: 劉育綸
-- **Semester**: 2025 Fall
+- **Semester**: 2025 Autumn
 
 ## Lab
 
